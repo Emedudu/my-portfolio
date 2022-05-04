@@ -1,0 +1,25 @@
+.projectDiv{
+    height:150px;
+    width:150px;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.projectChild{
+    font-size: large;
+}
+.projectWrapper{
+    display:flex;
+    flex-flow:row wrap;
+    align-content:space-around;
+}
+.projectDiv:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
