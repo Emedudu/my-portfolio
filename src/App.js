@@ -48,6 +48,11 @@ const  App= ()=> {
           'description':'A market for trading Non-Fungible Tokens',
           'completed':true,
           'siteLink':'https://github.com/Emedudu/nft-marketplace'
+        },
+        'FUN-D-CROWD':{
+          'description':'A fund raising platform',
+          'completed':true,
+          'siteLink':'https://github.com/Emedudu/Fun-d-crowd'
         }
       }
     }
