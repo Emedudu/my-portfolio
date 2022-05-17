@@ -29,7 +29,7 @@ const  App= ()=> {
     'projects':{
       'APPS':{
         'WORKTALK':{
-          'description':"To ease communication between bosses and workers in an organisation",
+          'description':"To ease communication between bosses and workers",
           'completed':false
         },
         // 'RANDOM':{
@@ -42,17 +42,18 @@ const  App= ()=> {
         'MEVOTE':{
           'description':'A decentralized application for voting',
           'completed':true,
-          'siteLink':'https://github.com/Emedudu/Mevote'
+          'codeLink':'https://github.com/Emedudu/Mevote',
+          'siteLink':'https://emedudu.github.io/Mevote'
         },
         'NFT-MARKETPLACE':{
           'description':'A market for trading Non-Fungible Tokens',
-          'completed':true,
-          'siteLink':'https://github.com/Emedudu/nft-marketplace'
+          'completed':false,
+          'codeLink':'https://github.com/Emedudu/nft-marketplace'
         },
         'FUN-D-CROWD':{
           'description':'A fund raising platform',
-          'completed':true,
-          'siteLink':'https://github.com/Emedudu/Fun-d-crowd'
+          'completed':false,
+          'codeLink':'https://github.com/Emedudu/Fun-d-crowd'
         }
       }
     }

@@ -14,7 +14,8 @@ const Project=({name,details})=>{
         onMouseEnter={()=>{setProjectText(details.description)}}
         onMouseLeave={()=>{setProjectText(name)}}
         onClick={handleClick}>       
-            <p className="projectChild">{projectText}</p>         
+            <p className="projectChild">{projectText}</p>
+            <a href={details.codeLink}>Link to Code</a>         
         </div>
     )
 }
